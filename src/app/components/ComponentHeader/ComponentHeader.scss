@@ -1,0 +1,27 @@
+@import "../../../assets/vallues";
+
+.component-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+
+  @media (max-width:756px){
+    display: none;
+  }
+
+  h1 {
+    border: 3px solid $main-brown;
+    padding: 20px 40px;
+    border-radius: 25px;
+    font-size: 2rem;
+    font-weight: 700;
+    transform: perspective(200px) rotateX(10deg) rotateY(5deg);
+  }
+
+  img {
+    width: 250px;
+    height: 250px;
+  }
+}

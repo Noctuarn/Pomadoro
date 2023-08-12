@@ -1,0 +1,28 @@
+.app {
+  overflow: hidden;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+
+  @media (max-width:500px){
+    padding-top: 10px;
+  }
+
+  &-components {
+    width: 80%;
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media (max-width:500px){
+     width: 100%;
+    }
+  }
+}

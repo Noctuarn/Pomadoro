@@ -1,25 +1,21 @@
-@import "./assets/_vallues.scss"; 
+@import "./assets/_vallues.scss";
+@import url(https://fonts.googleapis.com/css?family=Victor+Mono:100,200,300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic);
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   outline: none;
   color: $main-brown;
+  font-family: "Victor Mono";
+  font-weight: normal;
 }
 
 ul,
-li{
+li {
   list-style: none;
 }
 
-body{
+body {
   background-color: $main-green;
-}
-
-#root{
-  width: 100%;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
 }
