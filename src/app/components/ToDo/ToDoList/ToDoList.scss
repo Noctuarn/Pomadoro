@@ -1,0 +1,53 @@
+.todo {
+    &-list {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      margin-top: 40px;
+      width: 100%;
+      padding: 0px 15px;
+  
+      button {
+        font-size: 2rem;
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+      }
+    }
+  
+    &-element {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      font-size: 1.3em;
+      width: 100%;
+  
+      &:last-child{
+        margin-bottom: 100px;
+      }
+    }
+  
+    &-btn-delete {
+      transition: transform .4s ease;
+      align-self: end;
+      transform: translateY(10px);
+  
+      @media (min-width: 768px){
+        &:hover{
+          transform: translateY(-2px);
+        }
+      }
+    }
+  
+    &-text {
+      border-bottom: 3px solid #773a28;
+      width: 85%;
+      padding-bottom: 5px;
+      word-wrap: break-word;
+  
+      &-completed {
+        text-decoration: line-through;
+      }
+    }
+  }
+  
