@@ -1,0 +1,40 @@
+.notes-form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  
+    &-input {
+      width: 80%;
+      padding: 10px 15px;
+      border-radius: 5px;
+      border: 3px solid #773a28;
+      font-weight: 700;
+      font-size: 1.1rem;
+      outline: none;
+  
+      &::placeholder {
+        color: #773a28;
+        font-weight: 700;
+      }
+    }
+  
+    &-btn {
+      background-color: #b2d26f;
+      color: white;
+      border-radius: 15px;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-top: 50px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #8aaa45;
+      }
+    }
+  }

@@ -3,11 +3,9 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = [
   {
     id: 1,
-    title: "Гриби",
-    text: "Треба буде встати раніше, щоб піти завтра в гриби. Надіюся що хоч щось знайдемо",
-  },
-  { id: 2, title: "Нотатки помадоро", text: "Передоостаній компонент" },
-  { id: 3, title: "Життя", text: "Щось придумати" },
+    title: "Pomadoro Notes",
+    text: "Ви зможете записувати тут свої нотатки",
+  }
 ];
 
 const notesSlice = createSlice({
