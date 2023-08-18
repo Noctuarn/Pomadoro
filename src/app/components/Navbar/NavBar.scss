@@ -1,0 +1,32 @@
+.nav{
+    position: fixed;
+    left: -15%;
+    top: 50%;
+    width: 40%;
+    transform: rotate(-90deg);
+    padding: 15px 10px;
+
+    @media (max-width:800px){
+        display: none;
+    }
+
+    &-list{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    & a {
+        text-decoration: none;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        font-weight: 700;
+
+        @media (min-width: 768px){
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}

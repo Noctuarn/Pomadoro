@@ -19,14 +19,14 @@ const NotesForm = () => {
         value={noteTitle}
         className="notes-form-input"
         type="text"
-        placeholder="Введіть назву нотатку..."
+        placeholder="Введіть назву нотатки..."
         />
       <input
       onChange={e => setNoteText(e.target.value)}
         value={noteText}
         className="notes-form-input"
         type="text"
-        placeholder="Введіть опис нотатку..."
+        placeholder="Введіть опис нотатки..."
       />
 
       <button

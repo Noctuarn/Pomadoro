@@ -6,7 +6,7 @@ import ComponentHeader from "../../components/ComponentHeader/ComponentHeader";
 
 const ToDo = () => {
   return (
-    <div className="todo app-components">
+    <div id="todo" className="todo app-components">
       <ComponentHeader
         title={"To Do"}
         imgSrc={

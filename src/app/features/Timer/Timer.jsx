@@ -52,7 +52,7 @@ const Timer = () => {
   };
 
   return (
-    <div className="timer app-components">
+    <div id="timer" className="timer app-components">
       <ComponentHeader
         title={"Timer"}
         imgSrc={

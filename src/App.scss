@@ -1,6 +1,6 @@
 .app {
-
   width: 100%;
+  position: relative;
 
   .app-content{
     overflow: hidden;
@@ -27,8 +27,9 @@
     align-items: center;
     margin-bottom: 100px;
 
-    @media (max-width:500px){
+    @media (max-width:650px){
      width: 100%;
+     margin-bottom: 50px;
     }
   }
 }
