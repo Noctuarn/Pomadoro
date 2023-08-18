@@ -6,6 +6,7 @@ import Notes from "./app/features/Notes/Notes";
 import NotesElement from "./app/components/Notes/NotesElement/NotesElement";
 import AudioPlayer from "./app/components/AudioPlayer/AudioPlayer";
 import NavBar from "./app/components/Navbar/NavBar";
+import Footer from "./app/components/Footer/Footer";
 
 import "./App.scss";
 
@@ -21,6 +22,7 @@ function App() {
         <NotesElement />
         <AudioPlayer/>
       </div>
+      <Footer/>
     </div>
   );
 }
